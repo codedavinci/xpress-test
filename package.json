@@ -1,0 +1,26 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consolidate": "^0.14.5",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6",
+    "jade": "^1.11.0",
+    "jsonstream": "^1.0.3",
+    "lodash": "^4.17.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
